@@ -1,0 +1,41 @@
+.App-cart {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.cart-table {
+    width: 80%;
+    height: 30px;
+    padding: 5px 10px;
+    border: solid 1px #000;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.quantity{
+    width: 40px;
+}
+
+.cartListControls{
+    width: 200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sum{
+    font-weight: bold;
+    border-right: #000 solid 1px;
+    margin: 0 4px;
+}
